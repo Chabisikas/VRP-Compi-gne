@@ -22,11 +22,11 @@ It's advisable to verify query results occasionally, as the databases may lack p
 Working with the initial GTFS file open is crucial for better code understanding.
 The Excel file allows code updates and data changes based on bus lines. For example, "id:3" isolates line numbers, though they may not always correspond to names/numbers. Ensure correspondence in the GTFS Excel file.
 The file contains many columns; key elements include:
-id: Direction number at each stop (regardless of route)
-id1: Stop number (associated with a specific time)
-id2: Bus line number
-id3: Trip number
-id4: Weekly combination number (operational days)
+--> id: Direction number at each stop (regardless of route)
+--> id1: Stop number (associated with a specific time)
+--> id2: Bus line number
+--> id3: Trip number
+--> id4: Weekly combination number (operational days)
 
 # Shapefiles:
 
@@ -34,18 +34,21 @@ A shapefile is a file format for geographic information systems (GIS).
 
 Typically, it has an SHP extension and is accompanied by two other files:
 
-.dbf: Contains attribute data related to shapefile objects.
-.shx: Stores geometry index.
-.shp: The geometry of the entity itself.
+--> .dbf: Contains attribute data related to shapefile objects.
+--> .shx: Stores geometry index.
+--> .shp: The geometry of the entity itself.
+
 Other relevant file types include:
 
-.prj (recommended): Stores associated projection.
-.cpg: Specifies the code page for .dbf files.
+--> .prj (recommended): Stores associated projection.
+--> .cpg: Specifies the code page for .dbf files.
+
 The shapefile for the Oise department is available from the OTM (Open Transport Map) website:
 
-Click on "Open OTM as data," leading to this page.
-Select country/regions/departments (Note: names may be outdated, e.g., Picardie Region).
-Download the zip file in shp format and open it in Jupyter.
+-- > Click on "Open OTM as data," leading to this page : https://opentransportmap.info/download/.
+--> Select country/regions/departments (Note: names may be outdated, e.g., Picardie Region).
+--> Download the zip file in shp format and open it in Jupyter.
+
 To convert the shapefile to xlxs, save the processed file from Jupyter in Excel format (Export function available).
 
 # Desired Improvements:
