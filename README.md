@@ -86,7 +86,12 @@ https://github.com/giggls/openptmap
 # Associated Documents:
 
 The GTFS file of Compiègne
+
 The shapefile folder
+
 The shp file in Excel format
+
 An example HTML map
+
 The Python code in IPYNB format
+
