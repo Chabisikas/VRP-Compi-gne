@@ -63,9 +63,12 @@ To convert the shapefile to xlxs, save the processed file from Jupyter in Excel 
 
 # Desired Improvements:
 
-Dynamic display of bus positions. Currently, only stops for one bus line can be shown at a time. It would be useful to see the buses moving.
-Reimportation of the map (HTML map) to rewrite and add more bus lines to trace the entire city's bus network. We have yet to find a way to import pre-constructed bus line maps for use. The maps are built using the folium library.
-Exploiting road (bus) traffic maps. We have an Excel file with road traffic volume data, which can be mapped using geopandas (see code). Unfortunately, we only managed the display. It would be beneficial to interpolate the map with Compiègne's bus lines to identify congested bus routes and derive delay probabilities.
+--> Dynamic display of bus positions. Currently, only stops for one bus line can be shown at a time. It would be useful to see the buses moving.
+
+--> Reimportation of the map (HTML map) to rewrite and add more bus lines to trace the entire city's bus network.
+We have yet to find a way to import pre-constructed bus line maps for use. The maps are built using the folium library. 
+
+--> Exploiting road (bus) traffic maps. We have an Excel file with road traffic volume data, which can be mapped using geopandas (see code). Unfortunately, we only managed the display. It would be beneficial to interpolate the map with Compiègne's bus lines to identify congested bus routes and derive delay probabilities.
 
 
 # Websites:
