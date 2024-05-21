@@ -4,7 +4,7 @@
 
                                             # Usage of Python Codes and Associated Documents #
                                                                   
-# Anaconda:
+## Anaconda:
 
 First, install Anaconda from this link : https://www.anaconda.com/products/distribution.
 The software offers several IDEs, but we recommend using Jupyter Lab for better usability.
