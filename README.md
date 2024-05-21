@@ -21,12 +21,12 @@ It's advisable to verify query results occasionally, as the databases may lack p
 
 Working with the initial GTFS file open is crucial for better code understanding.
 The Excel file allows code updates and data changes based on bus lines. For example, "id:3" isolates line numbers, though they may not always correspond to names/numbers. Ensure correspondence in the GTFS Excel file.
-The file contains many columns; key elements include:
---> id: Direction number at each stop (regardless of route)
---> id1: Stop number (associated with a specific time)
---> id2: Bus line number
---> id3: Trip number
---> id4: Weekly combination number (operational days)
+### The file contains many columns; key elements include:
+[ ] --> id: Direction number at each stop (regardless of route)
+[ ] --> id1: Stop number (associated with a specific time)
+[ ] --> id2: Bus line number
+[ ] --> id3: Trip number
+[ ] --> id4: Weekly combination number (operational days)
 
 # Shapefiles:
 
