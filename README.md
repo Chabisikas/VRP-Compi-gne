@@ -57,7 +57,8 @@ Exploiting road (bus) traffic maps. We have an Excel file with road traffic volu
 
 # Websites:
 
-https://open-elevation.com/ ;
+https://open-elevation.com/
+
 https://github.com/Jorl17/open-elevation
 
 https://www.openstreetmap.org/#map=6/46.449/2.210
@@ -65,6 +66,7 @@ https://www.openstreetmap.org/#map=6/46.449/2.210
 https://github.com/openstreetmap/
 
 https://opentransportmap.info/
+
 https://github.com/giggls/openptmap
 
 
